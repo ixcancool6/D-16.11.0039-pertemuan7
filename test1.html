@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.container {
+			height: 900px;
+			background-color: grey;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.box {
+			width: 200px;
+			height: 100px;
+			margin: 20px;
+			background-color: pink;
+		}
+
+		.box2 {
+			order: 4;
+		}
+
+		.box4 {
+			order: 2;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="box">1</div>
+	<div class="box box2">2</div>
+	<div class="box">3</div>
+	<div class="box box4">4</div>
+	<div class="box">5</div>
+	<div class="box">6</div>
+</div>
+
+</body>
+</html>
